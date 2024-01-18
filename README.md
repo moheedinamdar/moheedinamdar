@@ -1,4 +1,4 @@
-### Hi there 👋
+### Heyy Hi 👋
 
 <!--
 **moheedinamdar/moheedinamdar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -20,6 +20,37 @@ Here are some ideas to get you started:
 <img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=moheedinamdar&label=Profile%20views&color=0e75b6&style=flat" alt="moheedinamdar" /> </p>
 
+```yaml
+apiVersion: v31
+kind: Human
+metadata:
+  name: Moheed Inamdar
+spec:
+  purpose: Help others learn DevOps
+  sponsorship: bretfisher.com/members
+  locations:
+    - 
+      type: YouTube Live Stream on Thursdays
+      where: bret.live
+    - 
+      type: Newsletter
+      where: bret.news
+    - 
+      type: Homepage
+      where: bretfisher.com
+    - 
+      type: Discord Server
+      where: devops.fan
+    -
+      type: Podcast
+      where: bretfisher.com/podcast
+  favorites:
+    number: 21
+    animal: 
+    emoji: 
+    food: 
+    drink: 
+```
 - 🌐 My personal website **https://moheedinamdar.github.io/**
 
 - 👨‍💻 All of my projects are available at [Github](https://github.com/moheedinamdar?tab=repositories)
@@ -31,3 +62,5 @@ Here are some ideas to get you started:
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=moheedinamdar&show_icons=true&locale=en" alt="moheedinamdar" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=moheedinamdar&" alt="moheedinamdar" /></p>
+
+<h3 align="left">Languages and Tools:</h3>
