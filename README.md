@@ -1,4 +1,4 @@
-### Heyy Hi 👋
+# Hey, I'm Moheed!
 
 <!--
 **moheedinamdar/moheedinamdar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h2 align="center">I am Moheed Inamdar and currently trying to be a good DevSecOps engineer and a Python developer.</h2>
+<h2 align="center">currently trying to be a good DevSecOps engineer and a Python developer.</h2>
 
 <img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=moheedinamdar&label=Profile%20views&color=0e75b6&style=flat" alt="moheedinamdar" /> </p>
@@ -30,7 +30,7 @@ spec:
   sponsorship: 
   locations:
     - 
-      type: YouTube Live Stream on Thursdays
+      type: YouTube
       where: 
     - 
       type: Newsletter
@@ -46,10 +46,10 @@ spec:
       where: 
   favorites:
     number: 21
-    animal: 
-    emoji: 
-    food: 
-    drink: 
+    animal:	🐱
+    emoji: 😈
+    food: :	🍕 🍟 🍨
+    drink: 🍑 
 ```
 - 🌐 My personal website **https://moheedinamdar.github.io/**
 
@@ -62,5 +62,8 @@ spec:
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=moheedinamdar&show_icons=true&locale=en" alt="moheedinamdar" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=moheedinamdar&" alt="moheedinamdar" /></p>
+
+![](https://github.com/sw-yx/sw-yx/blob/master/generated/overview.svg)
+![](https://github.com/sw-yx/sw-yx/blob/master/generated/languages.svg)
 
 <h3 align="left">Languages and Tools:</h3>
