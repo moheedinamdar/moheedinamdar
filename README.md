@@ -46,9 +46,9 @@ spec:
       where: 
   favorites:
     number: 21
-    animal:	🐱
+    animal: 🐱
     emoji: 😈
-    food: :	🍕 🍟 🍨
+    food: 🍕 🍟 🍨
     drink: 🍑 
 ```
 - 🌐 My personal website **https://moheedinamdar.github.io/**
