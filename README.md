@@ -27,23 +27,23 @@ metadata:
   name: Moheed Inamdar
 spec:
   purpose: Help others learn DevOps
-  sponsorship: bretfisher.com/members
+  sponsorship: 
   locations:
     - 
       type: YouTube Live Stream on Thursdays
-      where: bret.live
+      where: 
     - 
       type: Newsletter
-      where: bret.news
+      where: 
     - 
       type: Homepage
-      where: bretfisher.com
+      where: 
     - 
       type: Discord Server
-      where: devops.fan
+      where: 
     -
       type: Podcast
-      where: bretfisher.com/podcast
+      where: 
   favorites:
     number: 21
     animal: 
