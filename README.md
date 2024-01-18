@@ -63,7 +63,4 @@ spec:
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=moheedinamdar&" alt="moheedinamdar" /></p>
 
-![](https://github.com/sw-yx/sw-yx/blob/master/generated/overview.svg)
-![](https://github.com/sw-yx/sw-yx/blob/master/generated/languages.svg)
-
 <h3 align="left">Languages and Tools:</h3>
