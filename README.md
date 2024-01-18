@@ -21,3 +21,13 @@ Here are some ideas to get you started:
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=moheedinamdar&label=Profile%20views&color=0e75b6&style=flat" alt="moheedinamdar" /> </p>
 
 - 🌐 My personal website **https://moheedinamdar.github.io/**
+
+- 👨‍💻 All of my projects are available at [Github](https://github.com/moheedinamdar?tab=repositories)
+
+- 📫 How to reach me **moheedinamdar+github@gmail.com**
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=moheedinamdar&show_icons=true&locale=en&layout=compact" alt="moheedinamdar" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=moheedinamdar&show_icons=true&locale=en" alt="moheedinamdar" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=moheedinamdar&" alt="moheedinamdar" /></p>
