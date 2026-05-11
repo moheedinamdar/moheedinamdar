@@ -47,15 +47,17 @@ spec:
       - Staff / Principal DevSecOps Engineer
       - Platform Engineering Lead (IC track)
       - Cloud Security Architect
-    locations: [Pune, Hyderabad, Dubai, Singapore, Remote]
+    locations: [Pune, Hyderabad, UAE, Singapore, Remote]
   certifications:
     earned:
       - AWS Certified Developer – Associate
     inProgress:
       - CKS (Certified Kubernetes Security Specialist)
+      - CKA (Certified Kubernetes Administrator)
     planned2026:
       - AWS Security Specialty
       - HashiCorp Vault Associate
+      - HashiCorp Terraform Associate
   education:
     - B.E. in Computer Engineering — Pune University (2015–2018)
 ```
@@ -83,14 +85,12 @@ spec:
 
 ## Featured Projects
 
-> Projects in active development through Q2–Q3 2026. Each ships with architecture diagrams, threat models, and walkthrough videos.
+> A few things I'm actively building and documenting in public.
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| 🔗 **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | SLSA Level 3 + SBOM (Syft) + vulnerability scanning (Grype) + Sigstore cosign signing + Kyverno admission verification on EKS | 🟡 Building |
-| 🤖 **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | LangChain + LLM + RAG over CVE/EPSS data for auto-prioritization and de-duplication of SAST/SCA findings | 🟡 Building |
-| 🏗️ **[Backstage IDP — Secure Golden Paths](https://github.com/moheedinamdar/backstage-secure-idp)** | Internal developer portal with software templates that scaffold repos with CI/CD and security scans pre-wired | 🟡 Planned |
-| 🧠 **[LLMOps Reference Architecture](https://github.com/moheedinamdar/llmops-reference-architecture)** | End-to-end RAG (pgvector) + BentoML serving + Langfuse observability + prompt-injection guardrails on Kubernetes | 🟡 Planned |
+| **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | SLSA Level 3 + SBOM (Syft) + vulnerability scanning (Grype) + Sigstore cosign signing + Kyverno admission verification on EKS | Building |
+| **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | LangChain + LLM + RAG over CVE/EPSS data for auto-prioritization and de-duplication of SAST/SCA findings | Building |
 
 <img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
 
@@ -223,11 +223,11 @@ spec:
 
 ## Currently
 
-- 🔭 Architecting enterprise security frameworks at **Globant (Roche / GxP regulated)**
-- 🌱 Building four open-source projects on **supply chain security, AI-augmented DevSecOps, Backstage IDPs, and LLMOps**
-- 🎯 Targeting **CKS** and **AWS Security Specialty** certifications in 2026
-- ✍️ Writing about DevSecOps and platform engineering at scale — articles coming on Medium and Dev.to
-- 💬 **Open to Staff / Principal DevSecOps · Platform Engineering Lead · Cloud Security Architect** roles in Pune, Hyderabad, Dubai, Singapore, or Remote
+- Architecting enterprise security frameworks at **Globant (Roche / GxP regulated)**
+- Building open-source work around **supply chain security** and **AI-augmented DevSecOps**
+- Working toward **CKS** and **CKA**, with **AWS Security Specialty** and **HashiCorp Terraform Associate** planned next
+- Writing about DevSecOps and platform engineering at scale; articles are on the way for Medium and Dev.to
+- **Open to Staff / Principal DevSecOps · Platform Engineering Lead · Cloud Security Architect** roles in Pune, Hyderabad, UAE, Singapore, or Remote
 
 <img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
 
