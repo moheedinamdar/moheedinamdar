@@ -31,8 +31,8 @@ metadata:
 spec:
   summary: |
     Enterprise-scale DevSecOps and Platform Engineer architecting
-    security-first developer platforms across 300+ orgs, 50K+ repos,
-    and 150K+ projects in regulated industries (pharma, fintech,
+    security-first developer platforms across 300+ orgs, 180K+ repos,
+    and 5K+ groups in regulated industries (pharma, healthcare,
     cybersecurity). Reduced critical vulnerabilities by 40%, cut
     CI/CD onboarding by 60%, and built enterprise-adopted security
     metrics platforms used by 100+ product owners.
@@ -50,13 +50,9 @@ spec:
     locations: [Pune, Hyderabad, UAE, Singapore, Remote]
   certifications:
     earned:
-      - AWS Certified Developer – Associate
+      - AWS Certified Developer – Associate (recertifying 2026)
     inProgress:
-      - CKS (Certified Kubernetes Security Specialist)
       - CKA (Certified Kubernetes Administrator)
-    planned2026:
-      - AWS Security Specialty
-      - HashiCorp Vault Associate
       - HashiCorp Terraform Associate
   education:
     - B.E. in Computer Engineering — Pune University (2015–2018)
@@ -71,14 +67,14 @@ spec:
  │              │                 │                 │
  ├──────────────┼─────────────────┼─────────────────┤
  │ CenturySoft  │ Zymr (Virsec)   │ Globant (Roche) │ Staff / Principal
- │ Associate    │ Sr. SW Engineer │ Sr. DevSecOps & │ DevSecOps /
- │ Developer    │ DevOps Lead     │ Platform Eng.   │ Platform Architect
+ │ Associate    │ Senior DevOps   │ Sr. DevSecOps & │ DevSecOps /
+ │ Developer    │ Engineer (Lead) │ Platform Eng.   │ Platform Architect
  ├──────────────┼─────────────────┼─────────────────┤
    AWS · Jenkins  Docker · K8s ·    DevSecOps at        Supply chain security,
    Python · ETL   Terraform ·       enterprise scale —  IDPs (Backstage),
-   Cloud Migrate  Container Sec     150K+ projects,     LLMOps,
-                  95% early-vuln    300+ orgs,          AI-augmented security
-                  detection         40% vuln reduction
+   Cloud Migrate  Container Sec     180K+ repos,        LLMOps,
+                  shift-left sec    300+ orgs,          AI-augmented security
+                  pipelines         40% vuln reduction
 ```
 
 <img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
@@ -175,7 +171,7 @@ spec:
 **At Globant — Client: Roche (2024–Present)**
 
 - Architected **Unified Security Metrics Platform** (Python/GraphQL/DuckDB/Grafana) adopted enterprise-wide
-- Owned security posture across **300+ orgs · 50K+ repos · 150K+ projects**
+- Owned security posture across **300+ orgs · 180K+ repos · 5K+ groups**
 - Reduced critical vulnerabilities by **40%** across 50+ projects
 - Designed reusable secure CI/CD templates cutting onboarding by **60%**
 - Built internal security dashboard empowering **100+ product owners**
@@ -186,10 +182,10 @@ spec:
 
 **At Zymr — Client: Virsec (2020–2024)**
 
-- Achieved **95% early-vulnerability detection** via DevSecOps pipelines
+- Shifted security left, catching the majority of vulnerabilities pre-staging
 - Hardened **50+ Docker images** against CIS Benchmarks
 - Reduced infra provisioning time by **70%** with serverless architecture
-- Achieved **99.9% uptime** via disaster recovery on AWS Well-Architected
+- Designed DR & high availability (multi-AZ) on AWS Well-Architected
 - Led microservices migration, mentoring 10+ developers
 - Core member of Virsec product security research team
 
@@ -225,7 +221,7 @@ spec:
 
 - Architecting enterprise security frameworks at **Globant (Roche / GxP regulated)**
 - Building open-source work around **supply chain security** and **AI-augmented DevSecOps**
-- Working toward **CKS** and **CKA**, with **AWS Security Specialty** and **HashiCorp Terraform Associate** planned next
+- Working toward **CKA** and **HashiCorp Terraform Associate**
 - Writing about DevSecOps and platform engineering at scale; articles are on the way for Medium and Dev.to
 - **Open to Staff / Principal DevSecOps · Platform Engineering Lead · Cloud Security Architect** roles in Pune, Hyderabad, UAE, Singapore, or Remote
 
