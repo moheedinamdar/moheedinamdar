@@ -13,7 +13,7 @@
 
 </div>
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## About Me
 
@@ -58,7 +58,7 @@ spec:
     - B.E. in Computer Engineering — Pune University (2015–2018)
 ```
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Career Journey (Jan 2019 – Present)
 
@@ -77,7 +77,7 @@ spec:
                   pipelines         ~100% scan coverage
 ```
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Featured Projects
 
@@ -88,7 +88,7 @@ spec:
 | **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | SLSA Level 3 + SBOM (Syft) + vulnerability scanning (Grype) + Sigstore cosign signing + Kyverno admission verification on EKS | Building |
 | **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | LangChain + LLM + RAG over CVE/EPSS data for auto-prioritization and de-duplication of SAST/SCA findings | Building |
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Tech Stack & Expertise
 
@@ -160,7 +160,7 @@ spec:
 
 </div>
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Key Achievements
 
@@ -193,7 +193,7 @@ spec:
 </tr>
 </table>
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Awards & Recognition
 
@@ -202,7 +202,7 @@ spec:
 | **Pat on the Back Award** — Globant | 2024 | Recognized for leading the internal security dashboard & reporting system, driving cross-functional innovation in security automation |
 | **Hackathon Winner (2nd Place)** — Zymr | 2023 | Built an AI-powered NLP summarization system using synthetic and open datasets — foundation for current AI-augmented security work |
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## GitHub Stats
 
@@ -214,7 +214,7 @@ spec:
 
 </div>
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Currently
 
@@ -224,7 +224,7 @@ spec:
 - Writing about DevSecOps and platform engineering at scale; articles are on the way for Medium and Dev.to
 - **Open to Staff / Principal DevSecOps · Platform Engineering Lead · Cloud Security Architect** roles in Pune, Hyderabad, UAE, Singapore, or Remote
 
-<img src="assets/rainbow-divider.webp" width="100%" alt="" />
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 <div align="center">
 
