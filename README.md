@@ -1,6 +1,8 @@
+<img src="assets/header.svg" width="100%" alt="Moheed Inamdar — Senior DevSecOps & Cloud Security Engineer" />
+
 <div align="center">
 
-# Hey, I'm Moheed! <img src="assets/wave.gif" width="30px" alt="wave"/>
+# Hey, I'm Moheed! <img src="assets/wave.svg" width="30px" alt="waving hand"/>
 
 ### Senior DevSecOps & Cloud Security Engineer · 7+ Years · Securing Developer Platforms at Enterprise Scale
 
@@ -60,6 +62,25 @@ spec:
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
+## Secure SDLC at Enterprise Scale
+
+```mermaid
+flowchart LR
+  Dev([Commit / PR]) --> CI{CI Pipeline}
+  CI --> SAST[SAST]
+  CI --> SCA[SCA / Dependencies]
+  CI --> SEC[Secret Scan]
+  CI --> IMG[Container Scan]
+  SAST --> Gate{Policy Gate}
+  SCA --> Gate
+  SEC --> Gate
+  IMG --> Gate
+  Gate -- pass --> Sign[Sign + SBOM + Provenance] --> Deploy([Deploy])
+  Gate -- fail --> Block([Block + Alert])
+```
+
+<img src="assets/rainbow-divider.svg" width="100%" alt="" />
+
 ## Career Journey (Jan 2019 – Present)
 
 ```
@@ -87,6 +108,13 @@ spec:
 |---------|-------------|--------|
 | **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | SLSA Level 3 + SBOM (Syft) + vulnerability scanning (Grype) + Sigstore cosign signing + Kyverno admission verification on EKS | Building |
 | **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | LangChain + LLM + RAG over CVE/EPSS data for auto-prioritization and de-duplication of SAST/SCA findings | Building |
+
+<div align="center">
+
+<a href="https://github.com/moheedinamdar/supply-chain-security-pipeline"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=moheedinamdar&repo=supply-chain-security-pipeline&theme=tokyonight&hide_border=true" alt="supply-chain-security-pipeline" /></a>
+<a href="https://github.com/moheedinamdar/ai-vulnerability-triage"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=moheedinamdar&repo=ai-vulnerability-triage&theme=tokyonight&hide_border=true" alt="ai-vulnerability-triage" /></a>
+
+</div>
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
@@ -211,6 +239,8 @@ spec:
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=moheedinamdar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=moheedinamdar&show_icons=true&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
+
+<img width="100%" src="https://raw.githubusercontent.com/moheedinamdar/moheedinamdar/output/github-snake-dark.svg" alt="Contribution snake" />
 
 </div>
 
