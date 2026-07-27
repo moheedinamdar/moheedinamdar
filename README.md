@@ -109,13 +109,6 @@ flowchart LR
 | **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | SLSA Level 3 + SBOM (Syft) + vulnerability scanning (Grype) + Sigstore cosign signing + Kyverno admission verification on EKS | Building |
 | **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | LangChain + LLM + RAG over CVE/EPSS data for auto-prioritization and de-duplication of SAST/SCA findings | Building |
 
-<div align="center">
-
-<a href="https://github.com/moheedinamdar/supply-chain-security-pipeline"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=moheedinamdar&repo=supply-chain-security-pipeline&theme=tokyonight&hide_border=true" alt="supply-chain-security-pipeline" /></a>
-<a href="https://github.com/moheedinamdar/ai-vulnerability-triage"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=moheedinamdar&repo=ai-vulnerability-triage&theme=tokyonight&hide_border=true" alt="ai-vulnerability-triage" /></a>
-
-</div>
-
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Tech Stack & Expertise
@@ -232,13 +225,11 @@ flowchart LR
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
-## GitHub Stats
+## Contribution Activity
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=moheedinamdar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=moheedinamdar&show_icons=true&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
+![Followers](https://img.shields.io/github/followers/moheedinamdar?style=for-the-badge&logo=github&label=Followers&color=0e75b6)
 
 <img width="100%" src="https://raw.githubusercontent.com/moheedinamdar/moheedinamdar/output/github-snake-dark.svg" alt="Contribution snake" />
 
