@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hey, I'm Moheed! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+# Hey, I'm Moheed! 👋
 
-### Senior DevSecOps Engineer · Platform Engineering · 7+ Years · Securing Developer Platforms at Enterprise Scale
+### Senior DevSecOps & Cloud Security Engineer · 7+ Years · Securing Developer Platforms at Enterprise Scale
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/moheedinamdar)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/moheedinamdar)
@@ -13,7 +13,7 @@
 
 </div>
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## About Me
 
@@ -24,7 +24,7 @@ metadata:
   name: Moheed Inamdar
   namespace: pune-maharashtra
   labels:
-    role: Senior DevSecOps & Platform Engineer
+    role: Senior DevSecOps & Cloud Security Engineer
     company: Globant (Client: Roche - GxP regulated)
     experience: "7+ years"
     started: "January 2019"
@@ -53,12 +53,11 @@ spec:
       - AWS Certified Developer – Associate (recertifying 2026)
     inProgress:
       - CKA (Certified Kubernetes Administrator)
-      - HashiCorp Terraform Associate
   education:
     - B.E. in Computer Engineering — Pune University (2015–2018)
 ```
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## Career Journey (Jan 2019 – Present)
 
@@ -68,7 +67,7 @@ spec:
  ├──────────────┼─────────────────┼─────────────────┤
  │ CenturySoft  │ Zymr (Virsec)   │ Globant (Roche) │ Staff / Principal
  │ Associate    │ Senior DevOps   │ Sr. DevSecOps & │ DevSecOps /
- │ Developer    │ Engineer (Lead) │ Platform Eng.   │ Platform Architect
+ │ Developer    │ Engineer (Lead) │ Cloud Security  │ Platform Architect
  ├──────────────┼─────────────────┼─────────────────┤
    AWS · Jenkins  Docker · K8s ·    DevSecOps at        Supply chain security,
    Python · ETL   Terraform ·       enterprise scale —  IDPs (Backstage),
@@ -77,7 +76,7 @@ spec:
                   pipelines         40% vuln reduction
 ```
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## Featured Projects
 
@@ -88,7 +87,7 @@ spec:
 | **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | SLSA Level 3 + SBOM (Syft) + vulnerability scanning (Grype) + Sigstore cosign signing + Kyverno admission verification on EKS | Building |
 | **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | LangChain + LLM + RAG over CVE/EPSS data for auto-prioritization and de-duplication of SAST/SCA findings | Building |
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## Tech Stack & Expertise
 
@@ -160,7 +159,7 @@ spec:
 
 </div>
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## Key Achievements
 
@@ -193,7 +192,7 @@ spec:
 </tr>
 </table>
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## Awards & Recognition
 
@@ -202,30 +201,29 @@ spec:
 | **Pat on the Back Award** — Globant | 2024 | Recognized for leading the internal security dashboard & reporting system, driving cross-functional innovation in security automation |
 | **Hackathon Winner (2nd Place)** — Zymr | 2023 | Built an AI-powered NLP summarization system using synthetic and open datasets — foundation for current AI-augmented security work |
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## GitHub Stats
 
 <div align="center">
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=moheedinamdar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=moheedinamdar&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs?username=moheedinamdar&show_icons=true&theme=tokyonight&hide_border=true&layout=compact" alt="Top Languages" />
 
 </div>
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 ## Currently
 
 - Architecting enterprise security frameworks at **Globant (Roche / GxP regulated)**
 - Building open-source work around **supply chain security** and **AI-augmented DevSecOps**
-- Working toward **CKA** and **HashiCorp Terraform Associate**
+- Working toward **CKA** (Certified Kubernetes Administrator)
 - Writing about DevSecOps and platform engineering at scale; articles are on the way for Medium and Dev.to
 - **Open to Staff / Principal DevSecOps · Platform Engineering Lead · Cloud Security Architect** roles in Pune, Hyderabad, UAE, Singapore, or Remote
 
-<img width="100%" loading="lazy" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" />
+---
 
 <div align="center">
 
