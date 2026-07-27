@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="Moheed Inamdar — Senior DevSecOps and Cloud Security Engineer" font-family="'Fira Code','SFMono-Regular',ui-monospace,Consolas,monospace">
+    <rect x="1" y="1" width="998" height="248" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <path d="M1 13 A12 12 0 0 1 13 1 H987 A12 12 0 0 1 999 13 V44 H1 Z" fill="#1c2128"/>
+    <line x1="1" y1="44" x2="999" y2="44" stroke="#30363d" stroke-width="1.5"/>
+    <circle cx="26" cy="22.5" r="6" fill="#f85149"/>
+    <circle cx="48" cy="22.5" r="6" fill="#d29922"/>
+    <circle cx="70" cy="22.5" r="6" fill="#3fb950"/>
+    <text x="94" y="27" font-size="15" fill="#8b949e">moheed@devsecops:~</text>
+    <text x="34" y="90" font-size="20">
+        <tspan fill="#3fb950">$</tspan>
+        <tspan fill="#8b949e">whoami</tspan>
+    </text>
+    <text x="34" y="124" font-size="24" font-weight="700" fill="#c9d1d9">Moheed Inamdar</text>
+    <text x="34" y="166" font-size="20">
+        <tspan fill="#3fb950">$</tspan>
+        <tspan fill="#8b949e">cat role.txt</tspan>
+    </text>
+    <text x="34" y="198" font-size="21" fill="#58a6ff">Senior DevSecOps &amp; Cloud Security Engineer
+    </text>
+    <text x="34" y="232" font-size="20">
+        <tspan fill="#3fb950">$</tspan>
+    </text>
+    <rect x="52" y="216" width="11" height="20" fill="#3fb950">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.06s" repeatCount="indefinite"/>
+    </rect>
+</svg>
