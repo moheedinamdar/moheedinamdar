@@ -1,4 +1,4 @@
-<img src="assets/header.svg" width="100%" alt="Moheed Inamdar — Senior DevSecOps & Cloud Security Engineer" />
+<img src="assets/header.svg" width="100%" alt="Moheed Inamdar, Senior DevSecOps & Cloud Security Engineer" />
 
 <div align="center">
 
@@ -53,11 +53,11 @@ spec:
     locations: [Pune, Hyderabad, UAE, Singapore, Remote]
   certifications:
     earned:
-      - AWS Certified Developer – Associate (recertifying 2026)
+      - AWS Certified Developer - Associate (recertifying 2026)
     inProgress:
       - CKA (Certified Kubernetes Administrator)
   education:
-    - B.E. in Computer Engineering — Pune University (2015–2018)
+    - B.E. in Computer Engineering, Pune University (2015-2018)
 ```
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
@@ -81,7 +81,7 @@ flowchart LR
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
-## Career Journey (Jan 2019 – Present)
+## Career Journey (Jan 2019 - Present)
 
 ```
 2019           2020              2024              2026 →
@@ -92,7 +92,7 @@ flowchart LR
  │ Developer    │ Engineer (Lead) │ Cloud Security  │ Platform Architect
  ├──────────────┼─────────────────┼─────────────────┤
    AWS · Jenkins  Docker · K8s ·    DevSecOps at        Supply chain security,
-   Python · ETL   Terraform ·       enterprise scale —  IDPs (Backstage),
+   Python · ETL   Terraform ·       enterprise scale, IDPs (Backstage),
    Cloud Migrate  Container Sec     180K+ repos,        LLMOps,
                   shift-left sec    300+ orgs,          AI-augmented security
                   pipelines         ~100% scan coverage
@@ -189,7 +189,7 @@ flowchart LR
 <tr>
 <td width="50%">
 
-**At Globant — Client: Roche (2024–Present)**
+**At Globant, Client: Roche (2024-Present)**
 
 - Architected **Unified Security Metrics Platform** (Python/GraphQL/DuckDB/Grafana) adopted enterprise-wide
 - Owned security posture across **300+ orgs · 180K+ repos · 5K+ groups**
@@ -201,7 +201,7 @@ flowchart LR
 </td>
 <td width="50%">
 
-**At Zymr — Client: Virsec (2020–2024)**
+**At Zymr, Client: Virsec (2020-2024)**
 
 - Shifted security left, catching the majority of vulnerabilities pre-staging
 - Hardened **50+ Docker images** against CIS Benchmarks
@@ -220,8 +220,8 @@ flowchart LR
 
 | Award | Year | Details |
 |-------|------|---------|
-| **Pat on the Back Award** — Globant | 2024 | Recognized for leading the internal security dashboard & reporting system, driving cross-functional innovation in security automation |
-| **Hackathon Winner (2nd Place)** — Zymr | 2023 | Built an AI-powered NLP summarization system using synthetic and open datasets — foundation for current AI-augmented security work |
+| **Pat on the Back Award**: Globant | 2024 | Recognized for leading the internal security dashboard & reporting system, driving cross-functional innovation in security automation |
+| **Hackathon Winner (2nd Place)** (Zymr | 2023 | Built an AI-powered NLP summarization system using synthetic and open datasets) foundation for current AI-augmented security work |
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
