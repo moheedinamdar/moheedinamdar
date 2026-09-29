@@ -1,10 +1,10 @@
-<img src="assets/header.svg" width="100%" alt="Moheed Inamdar, Senior DevSecOps & Cloud Security Engineer" />
+<img src="assets/header.svg" width="100%" alt="Moheed Inamdar, Senior Platform & DevOps Engineer" />
 
 <div align="center">
 
 # Hey, I'm Moheed! <img src="assets/wave.svg" width="30px" alt="waving hand"/>
 
-### Senior DevSecOps & Cloud Security Engineer · 7+ Years · Securing Developer Platforms at Enterprise Scale
+### Senior Platform & DevOps Engineer · 7+ Years · Developer Platforms, Delivery & Platform Security
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/moheedinamdar)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/moheedinamdar)
@@ -26,36 +26,37 @@ metadata:
   name: Moheed Inamdar
   namespace: pune-maharashtra
   labels:
-    role: Senior DevSecOps & Cloud Security Engineer
+    role: Senior Platform & DevOps Engineer
     company: Globant (Client: Roche - GxP regulated)
     experience: "7+ years"
     started: "January 2019"
 spec:
   summary: |
-    Enterprise-scale DevSecOps and Cloud Security Engineer architecting
-    security-first developer platforms across 300+ orgs, 180K+ repos,
-    and 5K+ groups in regulated industries (pharma, healthcare,
-    cybersecurity). Shifted the enterprise from opt-in to
-    enforced-by-default scanning (~100% pipeline coverage), cut CI/CD
-    onboarding by ~60%, and built enterprise-adopted security metrics
-    platforms used by 100+ product owners.
+    Platform and DevOps engineer building internal developer platforms,
+    golden-path CI/CD and secure-by-default delivery across a
+    GxP-regulated estate of 300+ GitHub orgs, 180K+ repositories and
+    5K+ GitLab groups in pharma, healthcare and cybersecurity. Moved
+    the enterprise from opt-in to enforced-by-default scanning on every
+    eligible project, cut CI/CD onboarding by ~60%, and built the
+    governance and measurement layer underneath it.
   currentFocus:
-    - Software Supply Chain Security (SLSA, SBOM, Sigstore/cosign)
-    - Internal Developer Platforms (Backstage, golden-path templates)
-    - Policy-as-Code (OPA, Kyverno) and Kubernetes Security
-    - AI-Augmented DevSecOps (LLM-driven vulnerability triage, RAG)
-    - LLMOps reference architectures on Kubernetes
+    - Internal Developer Platforms (Backstage scaffolder, golden-path templates)
+    - Repository-centric security and governance automation at scale
+    - Verification: per-run least-privilege credentials, fail-closed
+      preflight, dry-run, audit on every outcome
+    - Vulnerability operations: scanner normalisation, MTTR, backlog age
+  learningInPublic:
+    - Workload identity and OIDC federation (no production experience yet)
+    - Policy engines: OPA/Rego and Kyverno (no production experience yet)
+    - OpenTelemetry (no production experience yet)
   openTo:
     roles:
-      - Staff / Principal DevSecOps Engineer
-      - Platform Engineering Lead (IC track)
-      - Cloud Security Architect
+      - Senior Platform Engineer
+      - Security Platform Engineer
+      - DevEx Platform Engineer
+      - Senior DevOps Engineer
     locations: [Pune, Hyderabad, UAE, Singapore, Remote]
-  certifications:
-    earned:
-      - AWS Certified Developer - Associate (recertifying 2026)
-    inProgress:
-      - CKA (Certified Kubernetes Administrator)
+  certifications: none currently held
   education:
     - B.E. in Computer Engineering, Pune University (2015-2018)
 ```
@@ -87,27 +88,33 @@ flowchart LR
 2019           2020              2024              2026 →
  │              │                 │                 │
  ├──────────────┼─────────────────┼─────────────────┤
- │ CenturySoft  │ Zymr (Virsec)   │ Globant (Roche) │ Staff / Principal
- │ Associate    │ Senior DevOps   │ Sr. DevSecOps & │ DevSecOps /
- │ Developer    │ Engineer (Lead) │ Cloud Security  │ Platform Architect
+ │ CenturySoft  │ Zymr (Virsec)   │ Globant (Roche) │ Senior Platform /
+ │ Associate    │ Senior DevOps   │ Sr. DevSecOps   │ Security Platform
+ │ Developer    │ Engineer (Lead) │ Engineer (SME)  │ Engineer
  ├──────────────┼─────────────────┼─────────────────┤
-   AWS · Jenkins  Docker · K8s ·    DevSecOps at        Supply chain security,
-   Python · ETL   Terraform ·       enterprise scale, IDPs (Backstage),
-   Cloud Migrate  Container Sec     180K+ repos,        LLMOps,
-                  shift-left sec    300+ orgs,          AI-augmented security
-                  pipelines         ~100% scan coverage
+   AWS · Jenkins  Docker · K8s ·    Platform · IDPs     Developer platforms,
+   Python · ETL   Terraform ·       Backstage · GHAS    governance
+   Cloud Migrate  Container Sec     180K+ repo estate,  automation,
+                  shift-left sec    300+ orgs,          verification
+                  pipelines         enforced scanning
 ```
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
 ## Featured Projects
 
-> A few things I'm actively building and documenting in public.
+> Things I maintain, and things I am learning in public. The status column is honest:
+> "working" means you can run it today, "scaffold" means the interfaces exist and the
+> hard parts are still TODO.
 
 | Project | Description | Status |
 |---------|-------------|--------|
-| **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | SLSA Level 3 + SBOM (Syft) + vulnerability scanning (Grype) + Sigstore cosign signing + Kyverno admission verification on EKS | Building |
-| **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | LangChain + LLM + RAG over CVE/EPSS data for auto-prioritization and de-duplication of SAST/SCA findings | Building |
+| **[precommit-security-hooks](https://github.com/moheedinamdar/precommit-security-hooks)** | Pre-commit bundle that blocks secrets, unsafe Dockerfiles and insecure IaC before they reach a repo. Every scanner runs from its official, version-pinned container image. Three layered profiles | Working |
+| **[setup-personal-work-git-profiles](https://github.com/moheedinamdar/setup-personal-work-git-profiles)** | Cross-platform wizard for multiple Git identities on one machine, auto-routed by directory, with per-profile SSH keys and commit signing | Working |
+| **[naukri-auto-update](https://github.com/moheedinamdar/naukri-auto-update)** | Headful Playwright automation with a persistent browser profile, built around real bot-protection constraints | Working |
+| **[nuke-docker](https://github.com/moheedinamdar/nuke-docker)** | One script to reset Docker to a freshly-installed state, with a full preview before it deletes anything | Working |
+| **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | Learning in public. CI wires up Syft SBOM generation, Grype scanning and cosign signing; SLSA provenance and Kyverno admission verification are not finished | Scaffold |
+| **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | Learning in public. SARIF ingest and de-duplication work; EPSS/KEV enrichment and the LLM prioritiser are not implemented yet | Scaffold |
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
@@ -136,22 +143,29 @@ flowchart LR
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 
-### Security Scanning (SAST · DAST · SCA · Container · IaC)
+### Security Scanning (SAST · SCA · Secrets · Container)
 
+![GHAS](https://img.shields.io/badge/GitHub_Advanced_Security-181717?style=for-the-badge&logo=github&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
 ![Snyk](https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white)
 ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white)
 ![Checkmarx](https://img.shields.io/badge/Checkmarx-54B848?style=for-the-badge&logo=checkmarx&logoColor=white)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![Semgrep](https://img.shields.io/badge/Semgrep-3DA639?style=for-the-badge&logo=semgrep&logoColor=white)
+![Sysdig](https://img.shields.io/badge/Sysdig_Secure-00B6D6?style=for-the-badge&logoColor=white)
 
-### Supply Chain Security & Policy-as-Code (building in public)
+### Platform Engineering
+
+![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=for-the-badge&logo=backstage&logoColor=black)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+### Learning in public (no production experience yet)
 
 ![Sigstore](https://img.shields.io/badge/Sigstore_cosign-FFD23F?style=for-the-badge&logo=sigstore&logoColor=black)
 ![SLSA](https://img.shields.io/badge/SLSA-1F2937?style=for-the-badge&logoColor=white)
 ![Syft](https://img.shields.io/badge/Syft_SBOM-0066CC?style=for-the-badge&logoColor=white)
 ![OPA](https://img.shields.io/badge/OPA-7B42BC?style=for-the-badge&logo=openpolicyagent&logoColor=white)
 ![Kyverno](https://img.shields.io/badge/Kyverno-326CE5?style=for-the-badge&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
 
 ### Secrets & Identity
 
@@ -163,14 +177,6 @@ flowchart LR
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elasticstack&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
-
-### Platform Engineering & AI (learning)
-
-![Backstage](https://img.shields.io/badge/Backstage-9BF0E1?style=for-the-badge&logo=backstage&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![BentoML](https://img.shields.io/badge/BentoML-000000?style=for-the-badge&logoColor=white)
 
 ### Languages & Scripting
 
@@ -191,11 +197,11 @@ flowchart LR
 
 **At Globant, Client: Roche (2024-Present)**
 
-- Architected **Unified Security Metrics Platform** (Python/GraphQL/DuckDB/Grafana) adopted enterprise-wide
-- Owned security posture across **300+ orgs · 180K+ repos · 5K+ groups**
-- Drove security scanning from opt-in to enforced-by-default (~100% pipeline coverage)
+- Designed and built the **repository governance control plane** (Backstage scaffolder over a Python control plane) and the **GitHub security engine** (Python/FastAPI/GitHub Apps)
+- Worked across an estate of **300+ orgs · 180K+ repos · 5K+ groups**
+- Drove security scanning from opt-in to enforced-by-default on every eligible project
 - Designed reusable secure CI/CD templates cutting onboarding by **~60%**
-- Built internal security dashboard empowering **100+ product owners**
+- Built a security analytics platform normalising every scanner into one severity model (pre-production)
 - Led team of 3 engineers · 15+ enablement sessions
 
 </td>
@@ -220,8 +226,8 @@ flowchart LR
 
 | Award | Year | Details |
 |-------|------|---------|
-| **Pat on the Back Award**: Globant | 2024 | Recognized for leading the internal security dashboard & reporting system, driving cross-functional innovation in security automation |
-| **Hackathon Winner (2nd Place)** (Zymr | 2023 | Built an AI-powered NLP summarization system using synthetic and open datasets) foundation for current AI-augmented security work |
+| **Pat on the Back Award**: Globant | 2024 | Recognised for leading the internal developer and security metrics platform, and for cross-functional work in security automation |
+| **2nd Place, Z-Hackathon**: Zymr | 2023 | AI-powered NLP summarisation system over synthetic and open datasets |
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
@@ -239,11 +245,10 @@ flowchart LR
 
 ## Currently
 
-- Architecting enterprise security frameworks at **Globant (Roche / GxP regulated)**
-- Building open-source work around **supply chain security** and **AI-augmented DevSecOps**
-- Working toward **CKA** (Certified Kubernetes Administrator)
-- Writing about DevSecOps and platform engineering at scale; articles are on the way for Medium and Dev.to
-- **Open to Staff / Principal DevSecOps · Platform Engineering Lead · Cloud Security Architect** roles in Pune, Hyderabad, UAE, Singapore, or Remote
+- Building developer platforms and governance automation at **Globant (Roche / GxP regulated)**
+- Maintaining open-source developer tooling, and learning supply-chain security in public
+- Writing about platform engineering and secure delivery at scale
+- **Open to Senior Platform Engineer · Security Platform Engineer · DevEx Platform Engineer · Senior DevOps** roles in Pune, Hyderabad, UAE, Singapore, or Remote
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
 
@@ -251,7 +256,7 @@ flowchart LR
 
 ### Let's Connect
 
-**Open to collaborating on DevSecOps, Platform Engineering, Software Supply Chain Security, and Cloud Security projects.**
+**Open to collaborating on Platform Engineering, Developer Experience, DevSecOps and secure software delivery projects.**
 
 [![Email](https://img.shields.io/badge/moheedinamdar@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:moheedinamdar@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/moheedinamdar)
