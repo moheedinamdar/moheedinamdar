@@ -45,10 +45,13 @@ spec:
     - Verification: per-run least-privilege credentials, fail-closed
       preflight, dry-run, audit on every outcome
     - Vulnerability operations: scanner normalisation, MTTR, backlog age
+  builtInPublic:  # personal projects, proven by CI runs, not production
+    - Supply-chain security: cosign keyless signing, SLSA v1 provenance,
+      Syft/Grype, Kyverno CEL admission policies, Flux signature checks
+    - OpenTelemetry: CI pipeline traces through a Collector into Jaeger
   learningInPublic:
     - Workload identity and OIDC federation (no production experience yet)
-    - Policy engines: OPA/Rego and Kyverno (no production experience yet)
-    - OpenTelemetry (no production experience yet)
+    - OPA/Rego (no production experience yet)
   openTo:
     roles:
       - Senior Platform Engineer
@@ -113,7 +116,7 @@ flowchart LR
 | **[setup-personal-work-git-profiles](https://github.com/moheedinamdar/setup-personal-work-git-profiles)** | Cross-platform wizard for multiple Git identities on one machine, auto-routed by directory, with per-profile SSH keys and commit signing | Working |
 | **[naukri-auto-update](https://github.com/moheedinamdar/naukri-auto-update)** | Headful Playwright automation with a persistent browser profile, built around real bot-protection constraints | Working |
 | **[nuke-docker](https://github.com/moheedinamdar/nuke-docker)** | One script to reset Docker to a freshly-installed state, with a full preview before it deletes anything | Working |
-| **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | Learning in public. CI wires up Syft SBOM generation, Grype scanning and cosign signing; SLSA provenance and Kyverno admission verification are not finished | Scaffold |
+| **[Supply Chain Security Pipeline](https://github.com/moheedinamdar/supply-chain-security-pipeline)** | Commit-to-pod verification. Every image is SBOM'd, Grype-gated, cosign keyless-signed and given SLSA v1 provenance from a reusable workflow; Flux only applies signed manifests and Kyverno only admits signed, attested, hardened pods. 10 attack-style checks on a kind cluster in every CI run, plus an OpenTelemetry trace of the run | Working |
 | **[AI Vulnerability Triage](https://github.com/moheedinamdar/ai-vulnerability-triage)** | Learning in public. SARIF ingest and de-duplication work; EPSS/KEV enrichment and the LLM prioritiser are not implemented yet | Scaffold |
 
 <img src="assets/rainbow-divider.svg" width="100%" alt="" />
@@ -158,14 +161,18 @@ flowchart LR
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 
-### Learning in public (no production experience yet)
+### Built in personal projects (CI-verified, not production)
 
 ![Sigstore](https://img.shields.io/badge/Sigstore_cosign-FFD23F?style=for-the-badge&logo=sigstore&logoColor=black)
-![SLSA](https://img.shields.io/badge/SLSA-1F2937?style=for-the-badge&logoColor=white)
+![SLSA](https://img.shields.io/badge/SLSA_v1-1F2937?style=for-the-badge&logoColor=white)
 ![Syft](https://img.shields.io/badge/Syft_SBOM-0066CC?style=for-the-badge&logoColor=white)
-![OPA](https://img.shields.io/badge/OPA-7B42BC?style=for-the-badge&logo=openpolicyagent&logoColor=white)
-![Kyverno](https://img.shields.io/badge/Kyverno-326CE5?style=for-the-badge&logoColor=white)
+![Kyverno](https://img.shields.io/badge/Kyverno_CEL-326CE5?style=for-the-badge&logoColor=white)
+![Flux](https://img.shields.io/badge/Flux-5468FF?style=for-the-badge&logo=flux&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
+
+### Learning in public (no production experience yet)
+
+![OPA](https://img.shields.io/badge/OPA-7B42BC?style=for-the-badge&logo=openpolicyagent&logoColor=white)
 
 ### Secrets & Identity
 
@@ -246,7 +253,7 @@ flowchart LR
 ## Currently
 
 - Building developer platforms and governance automation at **Globant (Roche / GxP regulated)**
-- Maintaining open-source developer tooling, and learning supply-chain security in public
+- Maintaining open-source developer tooling, and building supply-chain security in public
 - Writing about platform engineering and secure delivery at scale
 - **Open to Senior Platform Engineer · Security Platform Engineer · DevEx Platform Engineer · Senior DevOps** roles in Pune, Hyderabad, UAE, Singapore, or Remote
 
